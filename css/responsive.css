@@ -1,0 +1,20 @@
+@media screen and (max-width:576px) {
+   /* .logo-container{
+        flex-direction: column;
+        
+    }
+    .logo-container img{
+        margin-right: 20px;
+    }
+    .nav-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+}
+.online-games-container{
+    flex-wrap: wrap;
+    margin-right: 50px;
+    width: 50%;
+    height: 50%;
+}
