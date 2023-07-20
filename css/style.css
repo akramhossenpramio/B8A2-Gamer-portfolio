@@ -53,6 +53,7 @@ body{
     font-size: 18px;
     font-weight: 500;
     padding: 10px 20px;
+    border: none;
 }
 
 .btn-primary{
@@ -240,17 +241,18 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.logo-contain button{
+.logo-box{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 100px;
     width: 250px;
     height: 50px;
     border-radius: 70px;
-    padding: 40px 80px;
     align-items: flex-start;
     background: #0b02231a;
     font-size: 18px;
-    font-weight: 500;
-    
+    font-weight: 500;   
 }
 .logo-contain p{
     margin-left: 50px;
