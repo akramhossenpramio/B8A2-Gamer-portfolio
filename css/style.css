@@ -44,6 +44,8 @@ body{
 }
 
 .login-btn{
+    align-items: center;
+    text-align: center;
     width: 250px;
     height: 50px;
     border-radius: 8px;
@@ -212,11 +214,6 @@ body{
     top: 100px;
     color: #FFF;
 }
-
-.space{
-    
-    
-}
 .child-play{
     width: 800px;
     display: flex;
@@ -270,6 +267,9 @@ body{
     width: 1920px;
     height: 400px;
 }
+.last-section-container span{
+        color: #F948B2;
+}
 .last-section-contain{
     display: flex;
     gap: 20px;
@@ -289,7 +289,7 @@ body{
     font-weight: 700;
 }
 .last-section{
-    color: #ffffff;
+    color: #f7f1f1;
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -299,13 +299,32 @@ body{
 }
 .last-section a{
     text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
 }
 .icon{
-    justify-content: ;
-    display: flex;
-    align-items: center;
+   display: flex;  
+   width: 30%;
+   justify-content: space-between;
+   margin-top: 50px;
+   margin-left: 600px;
+   
+  
 }
 .fa-brands{
-   
-    font-size: 50px;
+    font-size: 30px;
+}
+.Conditions{
+    display: flex;
+    margin-left: 600px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+.gamer{
+    margin-left:630px;
+    color: rgba(255, 255, 255, 0.60);
 }
